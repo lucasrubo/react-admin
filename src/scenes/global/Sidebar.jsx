@@ -125,7 +125,7 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
 
-            {/* <Typography
+            <Typography
               variant="h6"
               color={colors.grey[300]}
               sx={{ m: "15px 0 5px 20px" }}
@@ -152,7 +152,7 @@ const Sidebar = () => {
               icon={<ReceiptOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
-            /> */}
+            />
 
             <Typography
               variant="h6"
@@ -161,27 +161,27 @@ const Sidebar = () => {
             >
               Pages
             </Typography>
-            {/* <Item
+            <Item
               title="Profile Form"
               to="/form"
               icon={<PersonOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
-            /> */}
+            />
             <Item
-              title="Calendar"
-              to="/calendar"
+              title="Calendário"
+              to="/calendario"
               icon={<CalendarTodayOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
-            {/* <Item
+            <Item
               title="FAQ Page"
               to="/faq"
               icon={<HelpOutlineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
-            /> */}
+            />
 
             <Typography
               variant="h6"
